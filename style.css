@@ -16,7 +16,7 @@ body {
     background-color: #e8e6e0;
     font-family: "Quicksand", sans-serif;
 }
-header img {
+#main_image {
   width: 70%;
   overflow:hidden;
 }
