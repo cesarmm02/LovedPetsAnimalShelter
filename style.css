@@ -1,22 +1,9 @@
-.quicksand-<uniquifier> {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-.merriweather-sans-<uniquifier> {
-  font-family: "Merriweather Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 body {
     background-color: #e8e6e0;
     font-family: "Quicksand", sans-serif;
 }
+
 #main_image {
   width: 70%;
-  overflow:hidden;
+  overflow: hidden;
 }
