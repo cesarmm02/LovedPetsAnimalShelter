@@ -1,6 +1,7 @@
 body {
     background-color: #e8e6e0;
     font-family: "Quicksand", sans-serif;
+    font-size: 24px;
 }
 
 #main_image {
@@ -30,3 +31,40 @@ body {
   position: relative;   /* stays in flow */
   z-index: 0;           /* behind the image */
 }
+#adopt {
+  clear: both;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  clear: both;
+}
+table, th, td {
+  border: 10px solid #9c9d89;
+  border-collapse:collapse;
+}
+table {
+  clear: both;
+  width: 100%;
+}
+#main_nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  font-family: "Teachers", Arial, Helvetica, sans-serif;
+}
+#main_nav li {
+  background-color: #9c9d89;
+  display: inline;
+  float: left;
+  border: 0px solid;
+  border-radius: 12px;
+  margin: 5px 16px;
+  padding: 10px 20px;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+  }
