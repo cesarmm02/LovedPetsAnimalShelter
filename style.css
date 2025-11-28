@@ -4,6 +4,11 @@ body {
 }
 
 #main_image {
-  width: 70%;
+  width: 100%;
   overflow: hidden;
+}
+
+.main {
+    display: block;
+    clear: both
 }
