@@ -50,30 +50,28 @@ table {
 }
 #main_nav {
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  overflow: hidden;
-  top: 0;
+  display: flex;               /* enables flexbox */
+  justify-content: center;     /* centers the buttons */
+  gap: 20px;                   /* spacing between buttons */
   font-family: "Teachers", Arial, Helvetica, sans-serif;
-  float: center;
-  align-content: center;
 }
+
 #main_nav li {
   background-color: #9c9d89;
-  display: inline;
-  float: left;
   border: 3px solid black;
   border-radius: 12px;
-  margin: 10px;
   padding: 10px 20px;
   font-size: 26px;
   text-transform: uppercase;
   font-weight: bold;
-  
-  }
+}
+
 #main_nav li:hover {
   background-color: #ecbc6a;
 }
+
 #main_nav a {
   color: #e8e6e0;
   text-decoration: none;
@@ -101,10 +99,11 @@ footer {
   clear: both;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 30px 10px 10px;
   width: 100%;
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
   background-color: #9c9d89;
+  
 }
 .section-heading{
   display: flex; 
@@ -120,4 +119,25 @@ footer {
 footer h3 {
   margin-bottom: -10px;
   text-decoration: underline;
+}
+/* Top row (Contact heading + line) */
+.footer-top {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Bottom row with 3 equal columns */
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-column {
+  width: 33%;
+}
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
 }
