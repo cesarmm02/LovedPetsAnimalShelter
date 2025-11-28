@@ -11,3 +11,13 @@ body {
 #main {
   clear: both;
 }
+
+#logo {
+  width: 25%; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-bottom: -40px;
+  border: 1px solid #555;
+  border-radius: 100%;
+}
