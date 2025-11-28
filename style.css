@@ -21,15 +21,17 @@ body {
   margin-left: auto; 
   margin-right: auto; 
   margin-bottom: -40px;
-  border: 1px solid #555;
+  border: 3px solid #000;
   border-radius: 100%;
+  z-index: 1;
 }
 .top-bar {
   width: 100%;
-  height: 50px; /* whatever height you want */
+  height: 50px;
   background-color: #ecbc6a;
-  position: relative;   /* stays in flow */
-  z-index: 0;           /* behind the image */
+  position: relative;
+  z-index: 0;
+  border-bottom: 3px solid #000;
 }
 #adopt {
   clear: both;
@@ -37,7 +39,6 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100%;
-  clear: both;
 }
 table, th, td {
   border: 10px solid #9c9d89;
@@ -52,19 +53,36 @@ table {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: sticky;
   top: 0;
   font-family: "Teachers", Arial, Helvetica, sans-serif;
+  float: center;
+  align-content: center;
 }
 #main_nav li {
   background-color: #9c9d89;
   display: inline;
   float: left;
-  border: 0px solid;
+  border: 3px solid black;
   border-radius: 12px;
-  margin: 5px 16px;
+  margin: 10px;
   padding: 10px 20px;
   font-size: 26px;
   text-transform: uppercase;
   font-weight: bold;
+  
   }
+#main_nav li:hover {
+  background-color: #ecbc6a;
+}
+#main_nav a {
+  color: #e8e6e0;
+  text-decoration: none;
+}
+header {
+  align-items: center;
+}
+hr {
+  border: none;
+  height: 3px;
+  background-color: black;  /* or any color */
+}
